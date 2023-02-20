@@ -18,7 +18,10 @@
 
         font-size: var(--main-text-font-size-mobile);
         line-height: var(--main-line-height-mobile);
+
+        
     }
+
     .location-icon-header {
 
     width: 32px;
