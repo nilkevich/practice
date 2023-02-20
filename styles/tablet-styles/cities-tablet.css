@@ -1,0 +1,29 @@
+@media (max-width:1169px) and (min-width:766px) {
+
+
+    /*cities*/
+
+    .cities-mobile {
+        display: none;
+
+    }
+
+    .cities-desktop {
+        margin-top: 60px;
+    }
+
+    .table-cities {
+        width: 500px;
+
+        font-size: var(--main-text-font-size-desktop);
+
+        margin-top: 40px;
+        
+        table-layout: fixed;
+    }
+
+    .city {
+        padding-bottom: 24px;
+    }
+
+}

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tele2 - это ваша выгода</title>
+        <link href="./styles/stylesheet.css" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="./favicon/site.webmanifest">
+        <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#1F2229"> 
+    </head>
+    <body>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+          </div>
+
+        <header class="header">
+            <img class="logo-header" src="./img/Logo.png" alt="logo Tele2">
+            <button class="location-header">
+                <img class="location-icon-header" src="./img/Location.png" alt="location icon">
+                <span data-city-header>Санкт-Петербург</span>
+            </button>
+        </header>
+        <div class="mobile-popup-orientation">
+                <h3 class="h3-all text-mobile-alert">Переверните экран</h3>
+            </div>
+        <section class="cities-desktop">
+            <h3 class="h3-all">Выберите город</h3>
+            
+            <table class="table-cities">
+                <tr class="table-row">
+                    <td class="city">
+                        <span class="a-cities" data-city="Воронеж">
+                            Воронеж
+                        </span>
+                    </td>
+                    <td class="city">
+                        <span class="a-cities" data-city="Москва">
+                            Москва
+                        </span>
+                    </td>
+                    <td class="city">
+                        <span class="a-cities" data-city="Ростов-на-Дону">
+                            Ростов-на-Дону
+                        </span>
+                    </td>
+                </tr>
+                <tr class="table-row">
+                    <td class="city">
+                        <span class="a-cities" data-city="Иркутск">
+                            Иркутск
+                        </span>
+                    </td>
+                    <td class="city">
+                        <span class="a-cities" data-city="Н. Новгород">
+                            Н. Новгород
+                        </span>
+                    </td>
+                    <td class="city">
+                        <span class="a-cities" data-city="Санкт Петербург">
+                            Санкт Петербург
+                        </span>
+                    </td>
+                </tr>
+                <tr class="table-row">
+                    <td class="city">
+                        <span class="a-cities" data-city="Кемерова">
+                            Кемерова
+                        </span>
+                    </td>
+                    <td class="city">
+                        <span class="a-cities" data-city="Новосибирск">
+                            Новосибирск
+                        </span>
+                    </td>
+                    <td class="city">
+                        <span class="a-cities" data-city="Челябинск">
+                            Челябинск
+                        </span>
+                    </td>
+                </tr>
+                <tr class="table-row">
+                    <td class="city">
+                        <span class="a-cities" data-city="Красноярск">
+                            Красноярск
+                        </span>
+                    </td>
+                    <td class="city">
+                        <span class="a-cities" data-city="Пермь">
+                            Пермь
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section class="cities-mobile">
+            <h3 class="h3-all h3-cities">Выберите город</h3>
+            <button class="btn-cross"></button>
+            <table class="table-cities">
+                <tr class="table-row">
+                    <td class="city"><span class="a-cities" data-city="Воронеж" href="#body">Воронеж</span></td>
+                    <td class="city"><span class="a-cities" data-city="Новосибирск">Новосибирск</span></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="city"><span class="a-cities" data-city="Иркутск">Иркутск</span></td>
+                    <td class="city"><span class="a-cities" data-city="Пермь">Пермь</span></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="city"><span class="a-cities" data-city="Кемерова">Кемерова</span></td>
+                    <td class="city"><span class="a-cities" data-city="Санкт Петербург">Санкт Петербург</span></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="city"><span class="a-cities" data-city="Красноярск">Красноярск</span></td>
+                    <td class="city"><span class="a-cities" data-city="Челябинск">Челябинск</span></td>
+                </tr>
+                <tr>
+                    <td class="city"><span class="a-cities" data-city="Москва">Москва</span></td>
+                    <td class="city"><span class="a-cities" data-city="Ростов-на-Дону">Ростов-на-Дону</span></td>
+                </tr>
+                <tr>
+                    <td class="city"><span class="a-cities" data-city="Н. Новгород">Н. Новгород</span></td>
+                </tr>
+            </table>
+        </section>
+
+        <div class="popup-outer">
+            <div class="popup-inner-wrapper">
+                <div class="tel-block-visible">
+                    <button class="cross"></button>
+                    <form>
+                        <p class="tel-block">
+                            <label class="tel" for="phone-modal">Номер телефона </label>
+                            <input class="input-tel input-tel-modalblock" type="text" id="phone-modal" name="phone-modal" placeholder="+7 (988) 543 - 32 - 34" required autocomplete="off"> 
+                        </p>
+                        <p>
+                            <input class="input-agreement" type="checkbox" id="agreement-check-modal" required>
+                            <label class="agreement" for="agreement-check-modal">
+                                <a>Даю согласие на обработку персональных данных. <b class="b-underlined">Условия&nbsp;соглашения.</b></a>
+                            </label>
+                        </p>
+                        <input type="submit" class="btn-all btn-form btn-text-all" value="Выслать промокод"></input>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <section class="sections section-promo" id="promo-section">
+            <div class="textblock-promo">
+                <p class="p-all">Акция продлится с 1 по 20 сентября</p>
+                <h2 class="h2-promo">это ваша <b class="b-important-color">выгода!</b></h2>
+                <p class="p-all p-promo">Тариф &laquo;Мой онлайн+&raquo; и&nbsp;1&nbsp;ТБ трафика в&nbsp;подарок для новых абонентов</p>
+                <button class="btn-promo">
+                    <a class="btn-text-promo">Принять участие</a>
+                </button>
+            </div>
+                <img class="img-promo" src="./img/Boss1 2.png" alt="Man">
+        </section>
+
+        
+
+        <section class="sections section-benefits">
+            <h3 class="h3-all h3-benefits">Один терабайт — много любимых развлечений</h3>
+            <p class="p-all p-benefits-present">Подарок получают только новые абоненты при подключении услуг Tele2 с&nbsp;тарифом &laquo;Мой онлайн+&raquo;. Трафик расходуется в&nbsp;течение года.</p>
+
+            <div class="benefits-all">
+                <div class="benefit-group">
+                    <img class="img-benefit" src="./img/Group 656.png" alt="phone on the blue background">
+                    <p class="p-all p-benefit">Около 500 часов видео</p>
+                </div>
+                <div class="benefit-group">
+                    <img class="img-benefit" src="./img/Group 655.png">
+                    <p class="p-all p-benefit">Примерно 200 000 песен</p>
+                </div>
+                <div class="benefit-group">
+                    <img class="img-benefit" src="./img/Group 657.png">
+                    <p class="p-all p-benefit">Порядка 300 000 фото</p>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <section class="sections section-telephone" id="tel-block">
+            <div class="tel-form-block">
+                <h3 class="h3-all h3-list-desktop">Несколько шагов <b class="b-important-color">и&nbsp;1&nbsp;ТБ&nbsp;&mdash; ваш</b></h3>
+                
+                <form>
+                    <p class="tel-block">
+                        <label class="tel" for="phone" required>Номер телефона </label>
+                        <input class="input-tel" type="text" id="phone" placeholder="+7 (988) 543 - 32 - 34" required autocomplete="off"> 
+                    </p>
+                    <p>
+                        <input class="input-agreement" type="checkbox" id="agreement-check" checked required>
+                        <label class="agreement" for="agreement-check">
+                            <a>Даю согласие на обработку персональных данных. <b class="b-underlined">Условия&nbsp;соглашения.</b></a>
+                        </label>
+                    </p>
+                    <input type="submit" class="btn-all btn-form btn-text-all" value="Выслать промокод"></input>
+                </form>
+
+                <div class="answer promo-sent">
+                    <span class="answer-icon answer-icon-checked"></span>
+                    <p class="answer-message answer-checked">Промокод выслан на ваш номер</p>
+                </div>
+
+                <div class="answer promo-not-sent">
+                    <span class="answer-icon answer-icon-error">!</span>
+                    <p class="answer-message answer-error">На этот номер уже выслан промокод, на один номер можно получить один промокод</p>
+                </div>
+
+                <div class="answer promo-not-sent">
+                    <span class="answer-icon answer-icon-error">!</span>
+                    <p class="answer-message answer-error">Необходимо принять условия соглашения</p>
+                </div>
+
+            </div>
+            <div class="list">
+                <h3 class="h3-all h3-list-mobile">Оставь номер <b class="b-important-color">и&nbsp;1&nbsp;ТБ&nbsp;&mdash; ваш</b></h3>
+                    <ul class="instructions-list">
+                        <li class="li-instructions"><span class="numbers">1</span><span class="li-text-span">Ведите свой номер телефона, затем дождитесь смс с&nbsp;промокодом для получения Тб</span></li>
+                        <li class="li-instructions"><span class="numbers">2</span><span class="li-text-span">Перейдите на&nbsp;<a class="a-tele2" href="https://tele2.ru/" target="_blank">сайт Tele2</a> и&nbsp;активируйте промокод при подключении на&nbsp;тариф &laquo;Мой Онлайн+&raquo;</span></li>
+                        <li class="li-instructions"><span class="numbers">3</span><span class="li-text-span">Используйте свой подарочный ТБ от Tele2 в&nbsp;течение&nbsp;всего года</span></li>
+                    </ul>
+            </div>
+        </section>
+
+        <section class="sections section-offer-desktop">
+            <div class="text-offer">
+                <h3 class="h3-all h3-offer">Заходите на сайт Tele2</h3>
+                <p class="p-all">Перейдите в&nbsp;магазин, оформите тариф &laquo;Мой онлайн+&raquo; и&nbsp;на&nbsp;страничке активации введите ваш промокод. Готово!</p>
+                <button class="btn-all btn-offer"><a class="btn-text-all">Оформить тариф</a></button>
+            </div>
+            <div>
+                <img class="img-offer" src="./img/Mask Group.png" alt="the phone on the blue background">
+            </div>
+            <div id="toast"><p>Промокод отправлен</p></div>
+        </section>
+        <section class="sections section-offer-mobile">
+            <div class="text-offer">
+                <h3 class="h3-all h3-offer">Заходите на сайт Tele2</h3>
+                <p class="p-all p-offer-mobile">Перейдите в&nbsp;магазин на&nbsp;страничку активации, введите ваш промокод. Готово! Теперь вы&nbsp;получите 1&nbsp;ТБ на&nbsp;ваш телефон при подключении тарифа &laquo;Мой онлайн+&raquo;.</p>
+            </div>
+            <div>
+                <img class="img-offer" src="./img/Mask Group.png" alt="the phone on the blue background">
+                <button class="btn-all btn-offer"><a class="btn-text-all">Оформить тариф</a></button>
+            </div>
+        </section>
+        
+        <button class="go-top go-top-hide"><img class="arrow-up" src="./img/arrow-up-svgrepo-com.svg" alt="arrow-up"></img></button>
+        <footer class="footer">
+            <div class="usersWrapper">
+                <div class="usersDivWrap"></div>
+                <div class="pagination" id="pagination"></div>
+            </div>
+            <div class="social-media">
+                <div class="icons-media">
+                    <a><img class="icon" src="./img/Twitter.png"></a>
+                    <a><img class="icon" src="./img/VKontakte.png"></a>
+                    <a><img class="icon" src="./img/Facebook.png"></a>
+                </div>
+                <div class="full-conditions">
+                    <a class="full-conditions-a">Полные условия акции</a>
+                    <img src="./img/Group 16+.png" >
+                </div>
+            </div>
+            
+            <div class="footer-contacts">
+                <div class="logo-footer">
+                    <img class="img-logo-footer" src="./img/Logo.png" alt="Logo Tele2">
+                    <p class="p-all p-footer-logo">&#169; Tele2 Россия, 2021</p>
+                </div>
+                <div class="logo-chulakov">
+                    <p class="p-all p-footer-chulakov">Сделано в Студии Олега Чулакова</p>
+                    <a><img src="./img/Logo 1.png" alt="CHULAKOV"></a>
+                </div> 
+            </div>
+        </footer>
+        <script src="./scripts/index.js"></script>
+        <script src="./scripts/goTop.js"></script>
+        <script src="./scripts/colorBlueEvenCities.js"></script>
+        <script src="./scripts/rewriteCityHeaderName.js"></script>
+        <script src="./scripts/openClosePopupPromo.js"></script>
+        <script src="./scripts/setShowCitiesWindow.js"></script>
+        <script src="./scripts/phoneMask.js"></script>
+        <script src="./scripts/scrollBar.js"></script>
+        <script src="./scripts/launchToast.js"></script>
+        <!-- <script src="./scripts/getUsers.js"></script> -->
+        <!-- <script src="./scripts/paginate.js"></script> -->
+    </body>
+</html>

@@ -1,0 +1,45 @@
+@media (max-width:1169px) and (min-width:766px) {
+
+
+    /*section-promo*/
+
+    .section-promo {
+        margin-top: 56px;
+
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+    
+    .textblock-promo {
+        margin-top: 27px;
+
+        max-width: 300px;
+    }
+
+    .h2-promo {
+        font-size: var(--h2-font-size-mobile);
+        line-height: var(--h2-line-height-mobile);
+        text-transform: uppercase;
+
+        margin-top: 48px;
+        margin-bottom: 24px;
+        
+    }
+
+    .p-promo {
+        max-width: 300px;
+    }
+
+
+    .btn-promo {
+        margin-top: 56px;
+        
+    }
+
+    
+    .img-promo {
+        width: 400px;
+    }
+}

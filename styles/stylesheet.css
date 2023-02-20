@@ -1,0 +1,17 @@
+/* common rules for all screens */
+@import url(./for-all-screens/all-common-rules.css);
+
+/* rules for desktop */
+@import url(./desktop-styles/desktop-styles.css);
+
+/* rules for tablet */
+@import url(./tablet-styles/tablet-styles.css);
+
+/* rules for mobile */
+@import url(./mobile-styles/mobile-styles.css);
+
+
+
+.answer {
+    display: none;
+}

@@ -1,0 +1,26 @@
+@media (max-width:767px) and (min-width:320px) {
+    
+    /*section-offer*/
+
+    .section-offer-desktop {
+        display: none;
+    }
+    .img-offer {
+        max-width: 230px;
+        height: 239px;
+
+        margin-left: calc(50% - 115px);
+        margin-bottom: 48px;
+        margin-top: 32px;
+    }
+
+    .p-offer-mobile {
+        max-width: 288px;
+        
+    }
+
+    .btn-offer {
+        
+        margin-left: calc(50% - 102.5px);
+    }
+}

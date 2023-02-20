@@ -1,0 +1,143 @@
+@media (max-width:767px) and (min-width:320px) {
+
+
+    /*section-telephone*/
+
+    .section-telephone {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .h3-list-desktop {
+        display: none;
+    }
+    .h3-list-mobile {
+        max-width: 196px;
+
+        margin-bottom: 40px;
+    }
+
+    .input-tel {
+        max-width: 288px;
+    }
+
+    .input-tel-modalblock {
+        max-width: 200px;
+    }
+
+    .instructions-list {
+        padding-left: 0;
+        margin-bottom: 56px;
+    }
+
+    .agreement {
+        max-width: 256px;
+    }
+
+    .btn-form {
+        margin-top: 32px;
+        margin-left: calc(50% - 109px);
+    }
+
+    .li-instructions {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        margin: 0;
+        margin-bottom: 32px;
+
+        width: 288px;
+
+        font-size: var(--main-text-font-size-mobile);
+        line-height: 27px;
+    }
+
+    .li-instructions:last-child {
+        margin-bottom: 0;
+    }
+
+    .li-instructions:first-child {
+        max-width: 460px;
+    }
+
+
+    .numbers {
+        
+        border: 2px solid var(--color-8);
+        border-radius: 50%;
+        flex-grow: 0;
+        flex-shrink: 0;
+
+        padding: 12.5px 20.3px;
+
+        color: var(--color-4);
+        font-family: var(--h3-font-family);
+        font-size: var(--h3-font-size-mobile);
+
+        text-align: center;
+
+        margin-bottom: 16px;
+        
+    }
+
+    .answer {
+
+        display: flex;
+        
+        
+
+        margin-top: 48px;
+    }
+
+    .promo-sent {
+        align-items: center;
+    }
+    .promo-not-sent {
+        align-items: flex-start;
+    }
+
+    .answer-message {
+        font-size: var(--font-size-answer);
+        line-height: var(--answer-line-height);
+
+
+    }
+
+    .answer-checked {
+        margin: 14px 0px 14px 12px;
+    }
+
+    .answer-error {
+        margin-top:10px;
+    }
+
+    .answer-icon {
+        width: 24px;
+        height: 24px;
+
+        border-radius: 50%;
+        
+
+        flex-grow: 0;
+        flex-shrink: 0;
+
+    }
+
+    .answer-icon-checked {
+        background-color: var(--color-4);
+        background-image: url(../black-check.svg);
+        background-repeat: no-repeat;
+        background-position: 50%;
+
+        margin-left: 12px;
+    }
+
+    .answer-icon-error {
+        background-color: var(--color-9);
+        margin: 8px;
+
+        color: var(--color-1);
+        text-align: center;
+    }
+}

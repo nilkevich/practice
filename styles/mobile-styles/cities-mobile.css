@@ -1,0 +1,53 @@
+@media (max-width:767px) and (min-width:320px) {
+
+    /*cities*/
+ 
+    .cities-desktop {
+        display: none;
+ 
+    }
+ 
+    .cities-mobile {
+        margin-top: 30px;
+    }
+ 
+    .table-cities {
+        width: 285px;
+    
+        font-size: var(--main-text-font-size-mobile);
+        line-height: var(--main-line-height-mobile);
+    
+        margin-top: 48px;
+        margin-left: 16px;
+     
+    }
+ 
+    .h3-cities {
+        margin-left: 16px;
+    }
+ 
+ 
+    .city {
+     
+        width: 142.5px;
+    
+        padding: 0;
+        padding-bottom: 16px;
+    }
+
+    .btn-cross {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        background-image: url(../Close.svg);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: transparent;
+        z-index: 10000;
+        position: absolute;
+        right: 0;
+        top: 13px;
+        
+    }
+} 

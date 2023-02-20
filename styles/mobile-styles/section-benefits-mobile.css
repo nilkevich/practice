@@ -1,0 +1,25 @@
+@media (max-width:767px) and (min-width:320px) {
+    
+    /*section-benefits-mobile*/
+
+    .benefit-group {
+        display: flex;
+        
+        align-items: center;
+
+        margin-bottom: 32px;
+    
+    }
+
+    .benefit-group:last-child {
+        margin-bottom: 0;
+    }
+
+    .benefits-all {
+        margin-top: 40px;
+    }
+
+    .p-benefit {
+        margin-left: 16px;
+    }
+}

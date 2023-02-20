@@ -1,0 +1,29 @@
+@media (max-width:1169px) and (min-width:766px) {
+
+
+    /*header*/
+
+    .logo-header {
+    width: 88px;
+    height: 33px;
+    
+    margin-top: 20px;
+    margin-left: 32px;
+    
+    }
+
+    .location-header {
+
+        margin: 20px 30px 23px 0;
+
+        font-size: var(--main-text-font-size-mobile);
+        line-height: var(--main-line-height-mobile);
+    }
+    .location-icon-header {
+
+    width: 32px;
+    height: 32px;
+
+    margin-right: 8px;
+    }
+}

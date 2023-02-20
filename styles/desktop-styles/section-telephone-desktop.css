@@ -1,0 +1,167 @@
+@media all and (min-width: 1170px) {    
+
+    /*section-telephone*/
+
+    .section-telephone {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .h3-list-desktop {
+        max-width: 339px;
+        margin-bottom: 64px;
+    }
+
+    .h3-list-mobile {
+        display: none;
+    }
+
+    .tel-form-block {
+        max-width: 348px
+    }
+
+    .instructions-list {
+    
+        display: flex;
+
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        overflow: auto;
+
+        scroll-snap-type: x mandatory;
+        margin-left: 30px;
+     
+    
+    }
+
+    .list {
+        
+        max-width: 450px;
+        overflow: hidden;
+        margin-right: 38px;
+    }
+
+    .instructions-list::-webkit-scrollbar {
+        background-color: var(--color-4);
+        height: 2px;
+
+    }
+    
+    .instructions-list::-webkit-scrollbar-thumb {
+        background-color: var(--color-9);
+    }
+
+    .li-text-span {
+        width: 400px;
+        
+    }
+    .li-instructions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        width: 400px;
+        margin-right: 50px;
+        scroll-snap-align: center;
+        scroll-snap-stop: always;
+
+        
+    }
+
+    .li-instructions:last-child {
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+
+
+
+
+    .numbers {
+        
+        border: 2px solid var(--color-8);
+        border-radius: 50%;
+        flex-grow: 0;
+        flex-shrink: 0;
+
+        margin-right: 24px;
+        padding: 10px 28.5px;
+
+        color: var(--color-4);
+        font-family: var(--h3-font-family);
+        font-size: var(--h3-font-size-desktop);
+
+        text-align: center;
+
+
+        
+    }
+
+    .btn-form {
+        margin-top: 32px;
+    }
+
+    .answer {
+        
+        background-color: var(--color-3);
+        border-radius: 8px;
+
+        display: flex;
+        
+        
+
+        margin-top: 48px;
+    }
+
+    .promo-sent {
+        align-items: center;
+    }
+    .promo-not-sent {
+        align-items: flex-start;
+    }
+
+    .answer-message {
+        font-size: var(--font-size-answer);
+        line-height: var(--answer-line-height);
+
+
+    }
+
+    .answer-checked {
+        margin: 14px 90px 14px 12px;
+    }
+
+    .answer-error {
+        margin-top:10px;
+    }
+
+    .answer-icon {
+        width: 24px;
+        height: 24px;
+
+        border-radius: 50%;
+        
+
+        flex-grow: 0;
+        flex-shrink: 0;
+
+    }
+
+    .answer-icon-checked {
+        background-color: var(--color-4);
+        background-image: url(../black-check.svg);
+        background-repeat: no-repeat;
+        background-position: 50%;
+
+        margin-left: 12px;
+    }
+
+    .answer-icon-error {
+        background-color: var(--color-9);
+        margin: 8px;
+
+        color: var(--color-1);
+        text-align: center;
+    }
+}

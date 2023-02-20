@@ -1,0 +1,35 @@
+@media (max-width:1169px) and (min-width:766px) {
+
+
+    /*section-offer*/
+    .section-offer-mobile {
+        display: none;
+    }
+    .section-offer-desktop {
+        display: flex;
+
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .text-offer {
+        max-width: 300px;
+    }
+
+    .h3-offer {
+        margin-bottom: 30px;
+    }
+
+    .btn-offer {
+        margin-top: 48px;
+    }
+
+    .img-offer {
+        margin-right: 26px;
+        width: 300px;
+    }
+
+    .agreement {
+        font-size: var(--btn-font-size);
+    }
+}

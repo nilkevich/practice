@@ -1,0 +1,148 @@
+@media (max-width:1169px) and (min-width:766px) {
+
+
+
+
+    /*section-telephone*/
+
+    .section-telephone {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .h3-list-desktop {
+        max-width: 339px;
+        margin-bottom: 40px;
+    }
+
+    .h3-list-mobile {
+        display: none;
+    }
+
+    .tel-form-block {
+        max-width: 300px
+    }
+
+    .instructions-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    }
+
+    .list {
+
+        max-width: 512px;
+
+        margin-right: 38px;
+    }
+
+    .li-instructions {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+
+        margin: 0;
+        margin-bottom: 32px;
+    }
+
+    .li-instructions:last-child {
+        margin-bottom: 0;
+    }
+
+    .li-instructions:first-child {
+        max-width: 460px;
+    }
+
+
+    .numbers {
+        
+        border: 2px solid var(--color-8);
+        border-radius: 50%;
+        flex-grow: 0;
+        flex-shrink: 0;
+
+        margin-right: 24px;
+        padding: 9px 20.3px;
+
+        color: var(--color-4);
+        font-family: var(--h3-font-family);
+        font-size: var(--h3-font-size-mobile);
+
+        text-align: center;
+
+
+        
+    }
+
+    .btn-form {
+        margin-top: 32px;
+    }
+
+    .input-tel {
+        max-width: 250px;
+    }
+
+    .answer {
+        
+        background-color: var(--color-3);
+        border-radius: 8px;
+
+        display: flex;
+        
+        
+
+        margin-top: 48px;
+    }
+
+    .promo-sent {
+        align-items: center;
+    }
+    .promo-not-sent {
+        align-items: flex-start;
+    }
+
+    .answer-message {
+        font-size: var(--font-size-small);
+        line-height: var(--answer-line-height);
+
+
+    }
+
+    .answer-checked {
+        margin: 14px 50px 14px 12px;
+    }
+
+    .answer-error {
+        margin-top:10px;
+    }
+
+    .answer-icon {
+        width: 24px;
+        height: 24px;
+
+        border-radius: 50%;
+        
+
+        flex-grow: 0;
+        flex-shrink: 0;
+
+    }
+
+    .answer-icon-checked {
+        background-color: var(--color-4);
+        background-image: url(../black-check.svg);
+        background-repeat: no-repeat;
+        background-position: 50%;
+
+        margin-left: 12px;
+    }
+
+    .answer-icon-error {
+        background-color: var(--color-9);
+        margin: 8px;
+
+        color: var(--color-1);
+        text-align: center;
+    }
+}

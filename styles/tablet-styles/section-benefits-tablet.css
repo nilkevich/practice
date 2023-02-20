@@ -1,0 +1,39 @@
+@media (max-width:1169px) and (min-width:766px) {
+
+
+    /*section-benefits*/
+
+    .h3-benefits {
+        margin-bottom: 24px;
+    }
+
+    .p-benefits-present {
+        max-width: 665px;
+
+        margin-bottom: 56px;
+    }
+
+    .benefits-all {
+        display: flex;
+        justify-content: space-between;
+
+        max-width: 650px;
+    }
+
+    .benefit-group {
+        display: flex;
+        
+        align-items: center;
+        
+    }
+
+    .p-benefit {
+        font-size: var(--font-size-small);
+        margin-left: 16px;
+    }
+
+    .img-benefit {
+        width: 30px;
+        height: 30px;
+    }
+}
