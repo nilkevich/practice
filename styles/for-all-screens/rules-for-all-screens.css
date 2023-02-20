@@ -112,6 +112,9 @@
      line-height: var(--main-line-height-mobile);
     }
    
+    .progress-container {
+        display: none;
+    }
     
 }
 
