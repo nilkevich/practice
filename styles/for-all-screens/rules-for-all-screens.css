@@ -115,7 +115,7 @@
     
 }
 
-@media (max-width: 767px) and (orientation: portrait) {
+/* @media (max-width: 767px) and (orientation: portrait) {
     .mobile-popup-orientation {
         display: block;
         height: 100%;
@@ -159,7 +159,7 @@
         }
         
     }
-}
+} */
 
 
 
