@@ -1,7 +1,7 @@
 const changeCity = (e) => {
 
-    if(localStorage.key === null) {
-        cityHeaderName.innerHTML = "Санкт-Петербург"
+    if (localStorage.key === null && localStorage.value === null) {
+        cityHeaderName.innerText = "Санкт-Петербург"
     } else {
     
     const city = e.currentTarget.getAttribute('data-city');
